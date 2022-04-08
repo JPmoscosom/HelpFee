@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Raleway&display=swap');
+
+
+
+.hf__backg{
+
+    background:-moz-linear-gradient(90deg, rgba(16, 0, 80, 1) 0%, rgba(0, 4, 46, 1) 0%, rgba(6, 10, 43, 1) 50%, rgba(3, 0, 26, 1) 99%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, rgba(16, 0, 80, 1) 0%, rgba(0, 4, 46, 1) 0%, rgba(6, 10, 43, 1) 50%, rgba(3, 0, 26, 1) 99%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, rgba(16, 0, 80, 1) 0%, rgba(0, 4, 46, 1) 0%, rgba(6, 10, 43, 1) 50%, rgba(3, 0, 26, 1) 99%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03001A', endColorstr='#100050', GradientType=0 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(90deg, rgba(16, 0, 80, 1) 0%, rgba(0, 4, 46, 1) 0%, rgba(6, 10, 43, 1) 50%, rgba(3, 0, 26, 1) 99%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, rgba(16, 0, 80, 1) 0%, rgba(0, 4, 46, 1) 0%, rgba(6, 10, 43, 1) 50%, rgba(3, 0, 26, 1) 99%);
+
+
+    
+    font-family: 'Raleway', sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
